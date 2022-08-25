@@ -1,0 +1,83 @@
+Khai báo : DOCTYPE html
+Bố cục : <html>
+<head> : Phần đầu
+<Body> : phần thân
+<title> : Tiêu đề ( Chính là kết quả tìm kiếm trên gg sau này)
+<meta charset="utf-8"> : Hỗ trợ hiển thị Tiếng Viêt trong website
+<!----> : Cú pháp comment ( chú thích )( Ctrl + /) ( có thể dùng để vô hiệu hóa dòng code)	
+<h1> (Heading) : Tiêu đề 
+<p> (paragrap) : Đoạn văn ( dùng tab <br/> để xuống dòng )
+<img src> : Hiển thị ảnh
+<a href> : Link
+<ul, li> : Danh sách chứa nhiều phần tử bên trong
+<table> : bảng
+<thead> : Phần đầu của bảng
+<tbody> : Phần thân của bảng
+<th> (table heading): Tên của bảng
+<tr> (table round) : Dòng
+<td> : Tương ứng với <th>
+<input> : ô nhập
+<label> : Đi liền với Input
+<button> : ô để chọn ( Đăng ký, đăng nhập,...)
+<div> : Khối bao quanh nội dung
+
+Attribute : Thuộc tính của html nằm trong thẻ mở
+
+
+CSS : CÓ 3 CÁCH SỬ DỤNG CSS TRONG HTML
+Internal : Bên trong
+- Là sử dụng 1 cặp thẻ Style đặt trong file HTML và viết CSS trong cặp thẻ Style đó.
+External : Bên ngòai
+- Là tạo 1 file ở bên ngoài và sử dụng 1 cặp thẻ link.
+Inline   : Viết trực tiếp vào dòng
+- là sử dụng 1 Attribute style trong thẻ mở của thẻ HTMl và viết các thuộc tính CSS vào.
+
+h1 { color : red; } : cặp thuộc tính của giá trị
+
+<link rel="stylesheet" href=""> : Dành cho External ( phải có code này để hiểu có css)
+
+CSS selectors: Trong CSS, CSS selectors là các cách chúng ta sử dụng để chọn ra các phần tử (elements) mà chúng ta muốn “style” cho chúng. 
+Có 2 CSS selectors thân thuộc với chúng ta nhất là id và class.
+
+
+ID & CLASS
+
+ID: là đặt tên và cách gọi 1 phần tử trong HTML ra để CSS (Dùng # để gọi)
+
+CLASS: Là cách đặt tên và gọi nhiều đối tượng để CSS (Dùng . để gọi)
+
+THỨ TỰ ƯU TIÊN KHI SỬ DỤNG CSS
+INLINE - 1000Đ
+#ID - 100Đ
+.CLASS - 10Đ
+TAG - 1Đ
+
+
+BIẾN TRONG CSS
+:Root  : giúp chỉnh sửa 1 cách tổng thể, k cần sửa từng dòng code
+
+
+CÁC ĐƠN VỊ TRONG CSS
+1. Absolute units : Các đơn vị tuyệt đối
+-px
+-pt
+-cm
+-mm
+-inch
+-pc
+2. Relative units : Các đơn vị tương đối
+-% : Phụ thuộc vào thẻ <body>
+-rem : Phụ thuộc vào thẻ <html>
+-em : nghe theo thẻ nào gần nó nhất
+-nw(viewport weight) : chiều ngang của trình duyêtj
+-vh(viewport height) : chiều dọc của trình duyệt
+-vmin
+-vmax
+-ex
+-ch
+
+margin, padding : loaị bỏ khoảng trống giữa các thẻ	
+
+
+
+
